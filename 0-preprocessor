@@ -1,0 +1,5 @@
+#!/bin/bash
+c_file=$CFILE
+output_file="c"
+cpp $c_file > $output_file
+echo "preprocesor output saved in $output_File
